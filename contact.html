@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Joyce Margareth Sembiring</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-container { display: flex; gap: 30px; flex-wrap: wrap; }
+        .contact-info { flex: 1; min-width: 280px; }
+        .contact-form-box { flex: 1.5; min-width: 280px; }
+        .contact-info ul { list-style: none; margin-top: 15px; }
+        .contact-info li { margin-bottom: 10px; }
+        .contact-info a { color: #c2185b; text-decoration: none; font-weight: 600; }
+        .contact-info a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="profile-header">
+            <img src="fotoku.jpg.jpeg" alt="Foto Profil">
+            <div>
+                <h2>Joyce Margareth Sembiring</h2>
+                <p>UNAI • NIM 2582008</p>
+            </div>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="biodata.html">Biodata</a>
+            <a href="myHoliday.html">My Holiday</a>
+            <a href="contact.html" class="active">Contact Me</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2 style="color: #880e4f; margin-bottom: 10px;">Hubungi Saya</h2>
+            <hr style="margin: 15px 0; border: 0; border-top: 1px solid #f8bbd0;">
+            <p style="margin-bottom: 20px; color: #665c60;">Terima kasih sudah berkunjung! Jika kamu punya pertanyaan, ingin berkolaborasi, atau sekadar ingin berkenalan, silakan hubungi saya melalui informasi di bawah atau isi form pesan ciyuu all.</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 style="color: #593f48; margin-bottom: 15px;">Informasi Kontak</h3>
+                    <ul>
+                        <li>📧 <strong>Email:</strong> <a href="mailto:2582008@unai.edu">2582008@unai.edu</a></li>
+                        <li>📸 <strong>Instagram:</strong> <a href="https://instagram.com/joycezly_" target="_blank">@joycezly_</a></li>
+                        <li>📱 <strong>Facebook:</strong> <a href="https://facebook.com" target="_blank">https://www.facebook.com/imjoycxx</a></li>
+                        <li>💻 <strong>GitHub:</strong> <a href="https://github.com/joyce-2582008" target="_blank">github.com/joyce-2582008</a></li>
+                        <li>📞 <strong>LinkedIn:</strong> <a href="https://linkedin.com" target="_blank">https://www.linkedin.com/in/joyce-margareth-3144ab3a3</a></li>
+                        <li>📱 <strong>TikTok:</strong> <a href="https://tiktok.com/@joycezly" target="_blank">joycezly</a></li>
+                    </ul>
+                </div>
+
+                <div class="contact-form-box">
+                    <h3 style="color: #593f48; margin-bottom: 15px;">Kirim Pesan</h3>
+                    <form action="#" method="POST" style="margin-top: 15px;">
+                        <div class="form-group">
+                            <label>Nama Lengkap</label>
+                            <input type="text" placeholder="Masukkan nama kamu" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Alamat Email</label>
+                            <input type="email" placeholder="nama@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Subjek</label>
+                            <input type="text" placeholder="Subjek pesan" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Pesan</label>
+                            <textarea rows="4" placeholder="Tulis pesan kamu di sini..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Joyce Margareth Sembiring</h3>
+                <p>Mahasiswa Program Studi Sistem Informasi</p>
+                <p>Fakultas Teknologi Informasi</p>
+                <p>Universitas Advent Indonesia</p>
+                <p>NIM: 2582008</p>
+                <div class="social-badge-group">
+                    <a href="mailto:2582008@unai.edu" class="social-badge">Email</a>
+                    <a href="https://github.com/joyce-2582008" target="_blank" class="social-badge">GitHub</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Navigasi</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="biodata.html">Biodata</a></li>
+                    <li><a href="myHoliday.html">My Holiday</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Tautan Kampus</h3>
+                <ul>
+                    <li><a href="https://fti.unai.edu" target="_blank">Fakultas Teknologi Informasi UNAI</a></li>
+                    <li><a href="https://unai.edu" target="_blank">Universitas Advent Indonesia</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Joyce Margareth Sembiring | NIM 2582008</p>
+            <p>Mid-Semester Project • Web Programming I • FTI UNAI</p>
+        </div>
+    </footer>
+
+</body>
+</html>
